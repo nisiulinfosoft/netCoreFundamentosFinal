@@ -1,0 +1,29 @@
+﻿USE MASTER
+
+CREATE DATABASE BdFundamentosFinal
+
+USE BdFundamentosFinal
+
+--DROP TABLE Trabajador
+
+CREATE TABLE Trabajador(
+IdTrabajador INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+NroDocumento VARCHAR(50),
+NombreCompleto VARCHAR(150),
+Sueldo DECIMAL(18,5)
+)
+
+CREATE TABLE [dbo].[Usuario](
+	[IdUsuario] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[NombreCompleto] [nvarchar](150) NOT NULL,
+	[Login] [nvarchar](150) NOT NULL,
+	[Clave] [nvarchar](150) NOT NULL,
+	[Origen] [nvarchar](50) NOT NULL,
+)
+
+
+SELECT * FROM Usuario
+
+
+INSERT [dbo].[Usuario] ([NombreCompleto], [Login], [Clave], [Origen]) 
+VALUES (N'Luisin Maza Alcalde', N'lmaza', N'123456', N'INTERNO')

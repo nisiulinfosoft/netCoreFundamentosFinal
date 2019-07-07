@@ -1,0 +1,14 @@
+﻿Agregar una tabla llamada Trabajador con la siguiente estructura
+
+IdCliente int
+NombreCompleto nvarchar(150)
+NroDocumento nvarchar(50)
+Sueldo
+
+
+Crear un proyecto de Cero que permita autenticar el usuario 
+y poder hacer el mantenimiento de la tabla Trabajador
+
+Mantenimiento de Usuario 12
+Login de Usuario 4
+Authorize de Usuario 4

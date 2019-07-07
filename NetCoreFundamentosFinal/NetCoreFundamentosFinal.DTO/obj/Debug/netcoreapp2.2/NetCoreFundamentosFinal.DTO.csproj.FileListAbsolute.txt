@@ -1,0 +1,9 @@
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\bin\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.deps.json
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\bin\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.dll
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\bin\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.pdb
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\obj\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.csprojAssemblyReference.cache
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\obj\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.csproj.CoreCompileInputs.cache
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\obj\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.AssemblyInfoInputs.cache
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\obj\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.AssemblyInfo.cs
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\obj\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.dll
+D:\LMAZA_NET_CORE_FUNDAMENTOS_S04_GALAXY\ESPACIO DE TRABAJO\NetCoreFundamentosFinal\NetCoreFundamentosFinal.DTO\obj\Debug\netcoreapp2.2\NetCoreFundamentosFinal.DTO.pdb
