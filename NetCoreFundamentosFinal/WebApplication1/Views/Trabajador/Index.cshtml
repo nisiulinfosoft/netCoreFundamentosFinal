@@ -1,0 +1,52 @@
+﻿@model IEnumerable<NetCoreFundamentosFinal.DTO.Trabajador>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listado de trabajadores</h1>
+
+<p>
+    <a asp-action="Editar">Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Código
+            </th>
+            <th>
+                Documento
+            </th>
+            <th>
+                Nombre y apellido
+            </th>
+            <th>
+                Sueldo
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTrabajador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NroDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCompleto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sueldo)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Editar", new { id = item.IdTrabajador }) |
+                @Html.ActionLink("Eliminar", "Eliminar", new { id = item.IdTrabajador })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

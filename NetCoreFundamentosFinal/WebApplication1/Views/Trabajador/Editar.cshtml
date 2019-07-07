@@ -1,0 +1,54 @@
+﻿@model NetCoreFundamentosFinal.DTO.Trabajador
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+@if (Model.IdTrabajador == 0)
+{
+    <h1>Nuevo trabajador</h1>
+}
+else
+{
+    <h1>Editar trabajador: @Model.NombreCompleto</h1>
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Grabar" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Código</label>
+                <input asp-for="IdTrabajador" class="form-control" readonly="readonly" />
+                <span asp-validation-for="IdTrabajador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Nro documento</label>
+                <input asp-for="NroDocumento" class="form-control" placeholder="Introducir número documento" />
+                <span asp-validation-for="NroDocumento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Nombre completo</label>
+                <input asp-for="NombreCompleto" class="form-control" placeholder="Introducir nombre completo" />
+                <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sueldo" class="control-label"></label>
+                <input asp-for="Sueldo" class="form-control" placeholder="Introducir sueldo" />
+                <span asp-validation-for="Sueldo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
